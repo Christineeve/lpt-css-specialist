@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html>
    <head>
-       <style>
-         h1 {
-            background-color: lightblue;
-           }
-           
-           /*All paragraph tags decentant of unordered list are yellow.*/
-           ul p{
-               background-color: yellow;
-           }
-           /* Parent/child relationship 
-           Referencing below: All a-tags, anchors that are a child of a p tag will be styled by the rule.
-           */
-           p>a {
-               background-color: purple;
-           }
-       </style>
-       
+   <!--   <link rel="stylesheet" href="myCSS.css">-->
+   <!-- external css. link tags don't have closing tags -->
+   <style>
+       /*internally linked css 
+   h1{
+      background-color: blueviolet;
     
-   </head>
+     }
+    li{
+       background-color: red;    
+      }
+       */
+  <style>
+  </style>
+  </head>
     <body>
         <h1>Welcome to my new website!</h1>
-        <p>Here is a link to my favorite search engine: <a href="www.google.com">Google</a></p>
+        <p>Please be sure to check back often because I will be adding lots of great content!</p>
         
-        <ul>
-           <li><p>Paragraph 1</p></li>
-           <li><p>Paragraph 2</p></li>
-           <li><p>Paragraph 3</p></li>
-           <li><a>Anchor 1</a></li>
-            
-        </ul>
-        
+        <h3>Here's a list of my top 3 favorite colors:</h3>       
+        <ol>
+            <li>Green</li>
+<!--            inline css to change the style for a single tag.-->
+            <li style="background-color: blue; color: black;">Orange</li>
+            <li>Purple</li>
+        </ol>
     </body>
 </html>

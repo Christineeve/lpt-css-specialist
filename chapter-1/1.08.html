@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html>
-   <head>
-       <style>
-       </style>
-       
+    <title>Class Selectors and ID Selectors</title>
+<head>
+<style>
+    /* class selectors */
+    .headerstyle {
+        background-color: lightgreen;
+    }
+    .headertextcolor {
+        color: white;
+    }
+    /* ID selectors can only be used once per selector, unlike classes that can be used over and over. ID selectors take higher priority and overrights the class selector. */
+    /* ID selector */
+    #mostimportantinfo{
+        background-color: pink;
+        color: darkred;
+    }
     
-   </head>
-    <body>
-        <h1>Welcome to my new website!</h1>
-        <p>Welcome to my site! Be sure to check back often because I will be adding lots of great new content!</p>
-        
-        <h3>Here's my contact info:</h3>
-        <p>Name: Andrew Snyder-Spak</p>
-        <p>Address: 123 Main Street</p>
-        <p>Town: Vernon</p>
-        <p>State: Connecticut</p>
-        <p>Phone Number: (555)555-5555</p>        
-    </body>
+</style>
+
+
+</head>
+<body>
+   <h1>Class Selectors</h1>
+    <h1 class="headerstyle">Welcome to my new website!</h1>
+    <p>Welcome to my site! Be sure to check back often because I will be adding lots of great new content!</p>
+    <!-- you can add more than one class per open tag -->
+    <h3 class="headerstyle headertextcolor">Here's my contact info:</h3>
+    <p>Name: Andrew Snyder-Spak</p>
+    <p>Address: 123 Main Street</p>
+    <p class="headerstyle">Town: Vernon</p>
+    <p>State: Connecticut</p>
+    <p id="mostimportantinfo">Phone Number: (555)555-5555</p>        
+</body>
 </html>
