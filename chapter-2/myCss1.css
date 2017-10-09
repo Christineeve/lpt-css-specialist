@@ -1,5 +1,6 @@
 .testparagraph{
     font-style: italic;
-    font-family: "Arial", san-serif;
+    /* Web safe fonts */
+    font-family: "Oswald";
     font-size: 1em;
 }
