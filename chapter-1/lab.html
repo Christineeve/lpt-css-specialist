@@ -6,15 +6,15 @@
               background-color: lightblue;
             }
            
-           /*All paragraph tags decentant of unordered list are yellow.*/
+           /*All paragraph tags decendant of unordered list are yellow.*/
            ul p{
                background-color: yellow;
            }
            /* Parent/child relationship 
            Referencing below: All a-tags, anchors that are a child of a p tag will be styled by the rule.
            */
-           p>a {
-               background-color: purple;
+           li>a {
+               color: #990099; /*web safe color */
            }
        </style>
    </head>
@@ -23,17 +23,17 @@
         <p>Here is a link to my favorite search engine: <a href="www.google.com">Google</a></p>
         <h3>Here are my 5 favorite cities:</h3>
         <ul style="list-style-type:disc">
-           <li><p>New York</p></li>
+           <li ><p style="color: green;">New York</p></li>
            <li><p>Tokyo</p></li>
            <li><p>London</p></li>
-           <li><p>Boston</p></li>
+           <li><p style="color: green;">Boston</p></li>
            <li><p>Paris</p></li>           
         </ul>
         <h3>Here are my 3 favorite websites:</h3>
         <ol>
-           <li a><p>Yahoo</p></li>
-           <li><p>The New York Times</p></li>
-           <li><p>Microsoft</p></li>                     
+          <li> <a href="http://www.yahoo.com">Yahoo</a></li>
+          <li> <a href="http://www.nytimes.com">NY Times</a></li>
+          <li> <a href="http://www.Microsoft.com">Microsoft</a></li>
         </ol>
         
     </body>
