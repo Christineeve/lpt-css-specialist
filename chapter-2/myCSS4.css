@@ -1,0 +1,18 @@
+a.button{
+    height: 30px;
+    background-color: transparent;
+    background-image: url("images/body.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    float: left;
+    display: block;    
+    
+}
+
+a.button span{
+    background-color: transparent;
+    background-image: url("images/cap.png");
+    line-height: 20px;
+    display: block;
+    padding: 5px 0px 5px 0px;
+}
