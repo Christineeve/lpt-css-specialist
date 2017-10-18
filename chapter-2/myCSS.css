@@ -1,11 +1,104 @@
-.poem{
+/* .poem{
     white-space: pre-wrap;
     text-align: center;    
-    /*text-align: left;
+    text-align: left;
     text-align: right;
-    text-align:justify*/
+    text-align:justify
     text-decoration:underline;
-/*    text-decoration:line-through;*/
-    
+    text-decoration:line-through;
+} 
+
+.testparagraph{
+    font-style: italic;
+    /* Web safe fonts 
+    font-family: "Oswald";
+    font-size: 1em;
+}
+
+#table_style{
+  border: 1px solid black;
+  border-collapse:collapse;
+  background-color: bisque;
+}
+
+#table_style th{
+  border: 1px solid black;
+  padding: 10px;
+  color: darkviolet;    
+}
+
+#table_style td{
+  border: 1px solid black;      
+  padding: 10px;
+}
+
+#ul_1{
+  list-style-position: inside;
+  list-style-type: circle;
+}
+#ul_2{
+  list-style-position: outside;
+  list-style-type: square;
+}
+#ol_1{
+  list-style-position: inside;
+  list-style-type: upper-roman;
     
 }
+#ol_2{
+  list-style-position: outside;
+  list-style-type: lower-alpha;
+}
+
+    
+.main_body{
+  width: 1000px;
+  height: 600px;
+  background-image: url("images/tree.png"), url('images/line.png');    
+  background-repeat: no-repeat, repeat-x;
+  background-position: right bottom, center top;
+  /*background-image:url('/images/cloud3.jpg.jpg');
+  background-size: 50px 250px;
+  background-size: auto auto;
+  background-size: 100% 50%;
+    
+}
+
+h1{
+    color: lightblue;
+    font-size: 50px;
+    
+ }
+
+a.button{
+    height: 62px;
+    background-color: transparent;
+    background-image: url("images/cap.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    float: left;
+    display: block;        
+    padding-right: 12px;
+}
+
+a.button span{
+    background-color: transparent;
+    background-image: url("images/body.png");
+    line-height: 20px;
+    display: block;
+    padding: 21px 0px 21px 10px;
+}
+
+a.button:hover{
+    background-image: url("images/cap_grey.png");
+}
+
+a.button span:hover{
+    background-image: url("images/body_grey.png");
+}
+
+
+*/
+
+
+
