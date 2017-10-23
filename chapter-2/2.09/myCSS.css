@@ -1,0 +1,30 @@
+#title{
+    
+    background: url("images/animated_sprite.png") 0px 0px;
+}
+
+#title:hover{
+    
+    background: url("images/animated_sprite.png") -300px 0px;    
+}
+
+.chrome .sprite {
+  background: url("images/sprite_sheet.png") -330px 0px;
+}
+
+.ie .sprite {
+  background: url("images/sprite_sheet.png") 0px 0px;
+}
+    
+
+.safari .sprite {  
+  background: url("images/sprite_sheet.png") -220px 0px;
+}
+
+.firefox .sprite {
+  background: url("images/sprite_sheet.png") -110px 0px;    
+}
+
+.opera .sprite {
+  background: url("images/sprite_sheet.png") -440px 0px;
+}

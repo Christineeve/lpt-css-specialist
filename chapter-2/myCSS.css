@@ -1,3 +1,38 @@
+#title{
+    
+    background: url("images/TitleSpriteSheet.png") 0px 0px;
+}
+#title:hover{
+    background: url("images/placeholder.png") -300px 0px;
+    
+}
+
+.chrome .sprite {
+    
+}
+
+.ie .sprite {
+    
+}
+
+.safari .sprite {
+    
+}
+
+.firefox .sprite {
+    
+}
+
+.opera .sprite {
+    
+}
+
+
+
+
+
+
+/* previous CSS.
 /* .poem{
     white-space: pre-wrap;
     text-align: center;    
