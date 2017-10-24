@@ -1,30 +1,32 @@
-#title{
-    
-    background: url("images/animated_sprite.png") 0px 0px;
+body{
+    background-color: aqua;
+}
+#title{    
+background: url("/images/animated_sprite.png") 0px -40px;
+background-repeat: no-repeat;
 }
 
 #title:hover{
-    
-    background: url("images/animated_sprite.png") -300px 0px;    
+background: url("/images/animated_sprite.png") -750px -40px;   
+background-repeat: no-repeat;
 }
 
 .chrome .sprite {
-  background: url("images/sprite_sheet.png") -330px 0px;
+  background: url("/images/spritesheet2.png") -400px 0px;
 }
 
 .ie .sprite {
-  background: url("images/sprite_sheet.png") 0px 0px;
+  background: url("/images/spritesheet2.png") 0px 0px;
 }
     
-
 .safari .sprite {  
-  background: url("images/sprite_sheet.png") -220px 0px;
+  background: url("/images/spritesheet2.png") -200px 0px;
 }
 
-.firefox .sprite {
-  background: url("images/sprite_sheet.png") -110px 0px;    
+.fireFox .sprite {
+  background: url("/images/spritesheet2.png") -100px 0px;    
 }
 
 .opera .sprite {
-  background: url("images/sprite_sheet.png") -440px 0px;
+  background: url("/images/spritesheet2.png") -300px 0px;
 }
