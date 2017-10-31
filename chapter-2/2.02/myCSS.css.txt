@@ -1,0 +1,10 @@
+/* previous CSS.
+/* .poem{
+    white-space: pre-wrap;
+    text-align: center;    
+    text-align: left;
+    text-align: right;
+    text-align:justify
+    text-decoration:underline;
+    text-decoration:line-through;
+} 
