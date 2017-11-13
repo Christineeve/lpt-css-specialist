@@ -1,0 +1,28 @@
+body{
+    
+}
+
+.image{
+  float: left;
+
+  background-color: green;
+  padding: 10px 10px 10px 10px;
+  border: 1px dashed black;
+  margin: 10px 10px 10px 10px;
+  outline: 10px solid red;
+    
+}
+
+#left{
+    -webkit-transform: skew(45deg);
+}
+#left:hover{}
+
+
+#right{
+    
+}
+#right:hover{
+    
+}
+
